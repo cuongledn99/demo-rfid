@@ -1,0 +1,26 @@
+body {
+  padding: 5px;
+
+  #root {
+    width: 19%;
+    padding: 0.5%;
+    border: 1px solid orange;
+
+    form {
+      padding: 5%;
+      border: 1px solid blue;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 3%;
+      border: 1px solid green;
+      padding: 5px;
+      text-align: left;
+
+      .category {
+        border: 1px solid lightblue;
+      }
+    }
+  }
+}
